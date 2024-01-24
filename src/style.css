@@ -1,0 +1,110 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    font-family: inter, sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5vh;
+    background-color: royalblue;
+    color: white;
+    width: 90vw;
+    padding: 0px 5vw;
+}
+.navbar img{
+    width: 50px;
+    margin-right: 2%;
+}
+.navbar h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: auto;
+}
+.navbar h3{
+    font-weight: 300;
+}
+
+.body_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    width: 80vw;
+    padding: 2.5vh 10vw;
+}
+.generator_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 15%;
+    width: 100%;
+}
+.input_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 45%;
+    width: 100%;
+}
+.input_field{
+    flex-basis: 48%;
+    height: 100%;
+    border: 1px solid rgba(211,211,211,0.9);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.generate_btn{
+    flex-basis: 40%;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: royalblue;
+    border: none;
+    transition: 0.3s;
+}
+.generate_btn:hover{
+    cursor: pointer;
+}
+.image_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 80%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.image_section img{
+width: auto;
+height: 100%;
+object-position: center;
+object-fit: stretch;
+}
+.meme_text{
+    font-size: 50px;
+    color: white;
+    text-shadow: 0px 5px 2px black;
+    text-transform: uppercase;
+}
+.top_text{
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    width: 50%;
+}
+.bottom_text{
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    width: 80%;
+}
